@@ -1,0 +1,28 @@
+.first{
+    
+    display: flex;
+    justify-content: space-around;
+    margin-top: 200px;
+}
+.box{
+    height: 250px;
+    width: 250px;
+    border: 4px soild red;
+    color: beige;
+    background-color: crimson;
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    .first {
+     display: block;
+     flex-direction: column;
+     justify-content: space-evenly;
+    }
+   
+    .box {
+     width: 100px;
+     height: 100px;
+     margin: 80px;
+     
+    }
+   }
